@@ -20,7 +20,7 @@ interface ISocketData {
   } | null;
 }
 
-const URL = "http://localhost:5000";
+const URL = "https://rock-paper-scissors-backend-2bjg.onrender.com";
 const socket = io(URL);
 socket.connect();
 
